@@ -1,0 +1,25 @@
+/* .TicketNum {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+} */
+
+.TicketBox {
+    padding: 1rem; /* Maintain spacious padding */
+    margin: 1rem; /* Space around the element */
+    font-size: 2rem; /* Large font size for emphasis */
+    font-weight: bold; /* Bold text for visibility */
+    color: #333; /* Neutral dark color for readability */
+    background-color: #f9f9f9; /* Light background for subtle contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    border: 1px solid #ccc; /* Light border for definition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align content */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+.TicketBox:hover {
+    background-color: #ececec; /* Slightly darker background on hover */
+    transform: translateY(-2px); /* Lift effect for interactivity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

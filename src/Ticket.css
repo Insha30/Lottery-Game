@@ -1,0 +1,31 @@
+
+/* .Ticket {
+    background-color: #6fc;
+    padding: 2rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+.TicketContainer {
+    background-color: #6fc; /* Light green background */
+    padding: 2rem; /* Spacious padding */
+    font-size: 34px; /* Large font size for emphasis */
+    font-weight: bold; /* Bold text for importance */
+    color: #d32f2f; /* Softer red for better readability */
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Space below the ticket */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+    border: 2px solid #4caf50; /* Green border to match the theme */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
+
+.TicketContainer:hover {
+    transform: scale(1.05); /* Slight zoom on hover for interactivity */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+    background-color: #57c; /* Slight color shift for hover effect */
+    color: #ffffff; /* White text on hover for better contrast */
+}

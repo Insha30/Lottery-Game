@@ -1,0 +1,94 @@
+
+/* .Lottery-box {
+    background: linear-gradient( green , yellow);
+    margin-top: 10rem;
+    margin-left: 23rem;
+    height : 50vh ;
+    width: 50%;
+    text-align: center;
+}
+
+.Ticket {
+    background-color: burlywood;
+    padding: 2rem;
+} */
+
+.Lottery-box {
+    background: linear-gradient(135deg, rgb(27, 12, 90) , rgba(178, 169, 208, 0.977));
+    /* background: linear-gradient(135deg, yellow, green); */
+    margin: 10rem auto 0;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Lottery-box h3 {   
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(182, 165, 11);
+    font-family: 'Georgia', serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Lottery-box h3:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+.Lottery-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+.Ticket {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 55%;
+}
+
+.Lottery-box h2 {
+    font-size: 2rem; /* Make the text larger */
+    font-weight: bold; /* Emphasize the text */
+    color: #4caf50; /* Add a winning green color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+    margin-top: 1rem; /* Add spacing above */
+    animation: glow 1.5s infinite alternate; /* Add a glowing effect */
+}
+
+
+.winning-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff8c00, #ff0080);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.8);
+    animation: pop 0.5s ease-in-out;
+}
+
+  
+  /* Keyframes for the glowing animation */
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50, 0 0 30px #4caf50;
+    }
+    to {
+      text-shadow: 0 0 20px #4caf50, 0 0 40px #4caf50, 0 0 50px #4caf50;
+    }
+}
+
+@keyframes pop {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+  
+  
